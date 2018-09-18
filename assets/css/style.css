@@ -1,17 +1,31 @@
 
+
+
 .jumbotron {
-	border: 5px solid gray;
-	background:;
-	margin-top: 50px;
+	/*border: 5px solid gray;*/
+	background: none;
+	margin-top: 100px;
+	height: 100vh;
 }
 
 #portfolio {
 	height: 100vh;
 }
 
+#about-me {
+	height: 100vh;
+}
+
 #skills {
 	height: 100vh;
 }
+
+
+
+
+
+
+
 
 
 /*tablet*/
