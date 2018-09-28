@@ -1,26 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-image: url(../images/space.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+	object-fit: cover;
+}
 
 
+
+.navbar {
+	background: transparent;
+}
+
+/*h1 {
+	animation-delay: 4s;
+	animation-duration: 2s;
+}*/
+
+.progress-bar {
+	animation-delay: 3s;
+}
+
+#row1 {
+	/*background-image: url(../images/space.gif);
+	background-size: cover;
+	background-position: 50% 50%;*/
+
+	/*background-color: black;*/
+}
+
+/*#row2 {
+	background-image: url(../images/space.gif);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#row3 {
+	background-image: url(../images/space.gif);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+*/
 
 .jumbotron {
 	/*border: 5px solid gray;*/
-	background: none;
+	/*background-image: url(../images/space.gif);
+	background-size: cover;*/
+	background: transparent;
 	margin-top: 100px;
 	height: 100vh;
+	color: white;
+	z-index: 2;
 }
 
 #portfolio {
 	height: 100vh;
+	color: white;
+	animation-duration: 2s;
 }
 
 #about-me {
 	height: 100vh;
+	color: white;
+}
+
+.skillz {
+	color: white;
 }
 
 #skills {
 	height: 100vh;
 }
 
+.img-fluid {
+	border-radius: 0;
+}
 
+#me {
+	height: 600px;
+	width: 600px;
+	/*border-radius: 50%;*/
+	border-style: solid;
+	border-width: 10px;
+	border-color: transparent;
+	margin-top: 50px;
+}
+
+.picture {
+	height: 500px;
+	width: 100%;
+	border-radius: 100%;
+	margin-top: 50px;
+}
+
+.contact {
+	color: white;
+}
 
 
 
@@ -35,6 +120,8 @@
 
 /*mobile*/
 @media only screen and (max-width: 400px) {
-
+	body {
+		width: 100%;
+	}
 
 }
